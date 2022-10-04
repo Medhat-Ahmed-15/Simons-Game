@@ -1,0 +1,59 @@
+body {
+  background-color: #011f3f;
+  text-align: center;
+  margin: 0px;
+}
+
+.GameOver {
+  background-color: red;
+  opacity: 0.8;
+}
+
+h1 {
+  color: #fef2bf;
+  font-family: "Press Start 2P", cursive;
+  font-size: 3rem;
+  padding-top: 2%;
+}
+
+.Button {
+  margin: 25px;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.rButton {
+  background-color: red;
+  color: transparent;
+}
+.gButton {
+  background-color: green;
+  color: transparent;
+}
+.bButton {
+  background-color: blue;
+  color: transparent;
+}
+.yButton {
+  background-color: yellow;
+  color: transparent;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: transparent;
+}
+
+.upper-row {
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 5%;
+}
+
+.bottom-row {
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 1%;
+}
